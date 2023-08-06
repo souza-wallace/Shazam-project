@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="">
+    <h1>teste</h1>
   </div>
 </template>
 
@@ -13,3 +13,5 @@
   }
 }
 </style>
+
+<script src="../assets/js/search.js"></script>
