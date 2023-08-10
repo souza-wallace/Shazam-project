@@ -4,9 +4,13 @@ import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.css';
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+
+//components
 import loading from './components/loading.vue';
 import music from './components/card-music.vue';
 import artist from './components/card-artist.vue';
+import menu from './components/menu.vue';
+
 
 
 const app = createApp(App)
@@ -16,4 +20,5 @@ app.use(router)
 app.component('c-loading', loading);
 app.component('c-card-music', music);
 app.component('c-card-artist', artist);
+app.component('c-menu', menu);
 app.mount('#app')

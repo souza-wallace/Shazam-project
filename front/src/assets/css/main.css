@@ -42,6 +42,8 @@
 
 .bold{
     font-weight: bold;
+    color: #fff;
+
 }
 
 .text-custom{
@@ -51,4 +53,9 @@
 .link{
     text-decoration: none;
     color: #000;
+}
+
+.backgroundColor{
+    background: #000;
+    /*background: linear-gradient(90deg, rgba(65,92,212,1) 17%, rgba(6,106,255,1) 58%, rgba(0,212,255,1) 100%);*/
 }
