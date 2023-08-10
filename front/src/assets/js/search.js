@@ -47,14 +47,10 @@ export default {
                 this.artists = response.data.artists.hits;
                 this.musics = response.data.tracks.hits;
                 this.return_api = false;
+                this.musics.map( music =>music.track.favorite = false);
 
-                console.log(this.artists, 'artists')
-                // Armazenar os dados no LocalStorage
                 localStorage.setItem('artists', JSON.stringify(this.artists));
                 localStorage.setItem('searchWord', JSON.stringify(this.term));
-
-
-                //this.backgroundAvatar = `background-image: url('${this.artist.avatar}')`;
 
             } catch (error) {
                 console.error(error);
@@ -80,6 +76,10 @@ export default {
             try {
                 const response = await axios.request(options);
                 this.top_songs = response.data;
+
+                //set a default value for use in component
+                this.top_songs.tracks.map( music =>music.favorite = false);
+
                 this.return_api = false;
             } catch (error) {
                 console.error(error);

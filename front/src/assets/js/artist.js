@@ -22,7 +22,6 @@ export default {
   
     mounted() {
         this.getDetails();
-        this.search();
         this.getTopSongs();
         this.getLatestRelease();
     },
@@ -45,20 +44,22 @@ export default {
                 const response = await axios.request(options);
                 this.artistData = response.data.data[0].attributes;
 
-                console.log(this.artistData, 'nm')
+        
+                if(this.artistData) this.revoverDataStorage();
+
+                console.log(this.artistData)
 
             } catch (error) {
                 console.error(error);
             }
         },
 
-        async search(){
+        async revoverDataStorage(){
             
             try {
                 var artists = {};
                 var artist = {};
 
-                // Recuperar os dados do LocalStorage
                 const data = localStorage.getItem('artists');
 
                 if (data) {
@@ -66,10 +67,8 @@ export default {
                 }
 
                 artist = artists.filter( dataArtist => dataArtist.artist.adamid == this.id);
-
+                console.log(artist, 'art')
                 this.artist = artist[0].artist;
-
-                console.log(this.artist, 'qd')
 
             } catch (error) {
                 console.error(error);

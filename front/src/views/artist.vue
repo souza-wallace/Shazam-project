@@ -9,6 +9,7 @@
             </article>
             <article class="ms-5 pt-5 block">
                 <h3 class="title">{{artistData?.editorialNotes ? artistData?.editorialNotes?.name : artist.name}}</h3>
+
                 <p class="text" v-if="artistData?.editorialNotes">{{ artistData?.editorialNotes?.standard}}</p>
                 <a class="text" v-else :href="artist.weburl">{{ artist.weburl}}</a>
 
@@ -17,7 +18,7 @@
         </section>
         <section>
             <article class=" m row d-flex justify-content-center">
-                <div class="ms-5 mt-4"><h2 class="bold">Top #10 de {{artist.name}}</h2></div>
+                <div class="ms-5 mt-4"><h2 class="bold">Top #10 songs of {{artist.name}}</h2></div>
                 <div class="card-music my-5 mb-2 mx-3 col-3 d-flex border b2" v-for="(album, index) in songs" :key="index">
                     <div class="me-1 text-custom ps-3"></div>
                     <div>

@@ -7,11 +7,11 @@
         <article class="col-12 d-flex justify-content-center">
             <div class="div-search">
                 <div class="d-flex justify-content-center">
-                    <h5 class="subtitle-size bold">Encontre suas Músicas Favoritas</h5>
+                    <h5 class="subtitle-size bold">search for songs or artists that you like the most</h5>
                 </div>
                 <div class="input-group mb-3 mt-custom-1">
                     <input type="text" class="form-control" v-model="term" placeholder="can be a word, phrase, artist name or song name"  aria-describedby="button-search">
-                    <button class="btn btn-outline-light" type="button" id="button-search" @click="search()">Buscar</button>
+                    <button class="btn btn-outline-light" type="button" id="button-search" @click="search()">search</button>
                 </div>
                 <div class="d-flex justify-content-center mt-custom-1">
                     <c-loading v-if="return_api"></c-loading>
@@ -25,11 +25,11 @@
                 <c-loading ></c-loading>
             </div>
             <div v-if="!return_api && Object.keys(musics).length != 0">
-                <div><h2 class="bold">Resultados de artistas para {{searchWord}}</h2></div>
+                <div><h2 class="bold">Artist results for: {{searchWord}}</h2></div>
                 <c-card-artist :artists="artists"></c-card-artist>
             </div>
             <div class="mt-4" v-if="!return_api && Object.keys(artists).length != 0">
-                <div><h2 class="bold">Músicas mais populares para {{searchWord}}</h2></div>
+                <div><h2 class="bold">Most popular songs for: {{searchWord}}</h2></div>
                 <div>
                     <c-card-music :musics="musics"></c-card-music>
                 </div>
@@ -67,6 +67,8 @@
 .right{
     width: 50%;
     color: #000;
+    height: auto;
+    overflow-y: auto; max-height: 100vh;
 }
 
 .mt-custom-1{
