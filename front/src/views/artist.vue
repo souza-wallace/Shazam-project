@@ -1,5 +1,8 @@
 <template class="container">
     <main class="b">
+        <nav>
+            <c-menu></c-menu>
+        </nav>
         <section class="d-flex">
             <article class="ms-5 pt-5 block">
                 <img class="thumb-profile" :src="artist.avatar" alt="">
