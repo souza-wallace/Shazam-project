@@ -1,0 +1,531 @@
+{
+  "data": [
+    {
+      "id": "579373079",
+      "type": "songs",
+      "attributes": {
+        "hasTimeSyncedLyrics": true,
+        "albumName": "Metallica",
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 1,
+        "releaseDate": "1991-07-29",
+        "durationInMillis": 331560,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "USEE10001992",
+        "artwork": {
+          "width": 3825,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/{w}x{h}bb.jpg",
+          "height": 3825,
+          "textColor3": "c1c1c1",
+          "textColor2": "e5e5e5",
+          "textColor4": "b7b7b7",
+          "textColor1": "f2f2f2",
+          "bgColor": "000000",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "playParams": {
+          "id": "579373079",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/us/album/enter-sandman/579372950?i=579373079",
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "hi-res-lossless",
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "Enter Sandman",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/40/64/66/40646668-82fe-e7f4-6e09-1194fb0ced89/mzaf_321916707498501748.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "579373086",
+      "type": "songs",
+      "attributes": {
+        "hasTimeSyncedLyrics": true,
+        "albumName": "Metallica",
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 8,
+        "releaseDate": "1991-08-12",
+        "durationInMillis": 388733,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "USEE10001999",
+        "artwork": {
+          "width": 3825,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/{w}x{h}bb.jpg",
+          "height": 3825,
+          "textColor3": "c1c1c1",
+          "textColor2": "e5e5e5",
+          "textColor4": "b7b7b7",
+          "textColor1": "f2f2f2",
+          "bgColor": "000000",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "playParams": {
+          "id": "579373086",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/us/album/nothing-else-matters/579372950?i=579373086",
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "hi-res-lossless",
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "Nothing Else Matters",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/51/1e/08511e77-f8c4-7aba-4069-437211d2a505/mzaf_3922800193125139869.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "579149036",
+      "type": "songs",
+      "attributes": {
+        "albumName": "Ride the Lightning (Remastered)",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 3,
+        "durationInMillis": 309973,
+        "releaseDate": "1984-07-27",
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "USEE10170109",
+        "artwork": {
+          "width": 1425,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/0f/7a/74/0f7a7472-92fa-e77d-384a-1e4304705e83/dj.jbiruenb.png/{w}x{h}bb.jpg",
+          "height": 1425,
+          "textColor3": "c4cae1",
+          "textColor2": "7ebbef",
+          "textColor4": "71a5dd",
+          "textColor1": "e5e9f4",
+          "bgColor": "3f4f98",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "url": "https://music.apple.com/us/album/for-whom-the-bell-tolls/579148345?i=579149036",
+        "playParams": {
+          "id": "579149036",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "hi-res-lossless",
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "For Whom the Bell Tolls",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/89/a2/3589a2fb-2922-51ef-274d-f0c6e10c4f60/mzaf_17440675038089707494.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "1275819878",
+      "type": "songs",
+      "attributes": {
+        "hasTimeSyncedLyrics": true,
+        "albumName": "Master of Puppets (Deluxe Box Set)",
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 2,
+        "releaseDate": "1986-01-01",
+        "durationInMillis": 515387,
+        "isVocalAttenuationAllowed": false,
+        "isMasteredForItunes": true,
+        "isrc": "QMKHM1600219",
+        "artwork": {
+          "width": 1425,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/5a/82/b85a8259-60d9-bfaa-770a-2baac8380e87/858978005196.png/{w}x{h}bb.jpg",
+          "height": 1425,
+          "textColor3": "ccbeb6",
+          "textColor2": "dfdfe8",
+          "textColor4": "c2bdc3",
+          "textColor1": "ede0d9",
+          "bgColor": "4d362e",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "playParams": {
+          "id": "1275819878",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/us/album/master-of-puppets/1275819392?i=1275819878",
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "Master of Puppets",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/da/e7/9c/dae79c08-a960-2d21-8eab-42e9d70e29e6/mzaf_2865829777720837589.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "579373082",
+      "type": "songs",
+      "attributes": {
+        "albumName": "Metallica",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 4,
+        "durationInMillis": 387107,
+        "releaseDate": "1991-08-12",
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "USEE10001995",
+        "artwork": {
+          "width": 3825,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/{w}x{h}bb.jpg",
+          "height": 3825,
+          "textColor3": "c1c1c1",
+          "textColor2": "e5e5e5",
+          "textColor4": "b7b7b7",
+          "textColor1": "f2f2f2",
+          "bgColor": "000000",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "url": "https://music.apple.com/us/album/the-unforgiven/579372950?i=579373082",
+        "playParams": {
+          "id": "579373082",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "hi-res-lossless",
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "The Unforgiven",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c7/f8/1c/c7f81ce5-7fbb-1545-eec5-9f22d91188ce/mzaf_13404638714942257901.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "1433828082",
+      "type": "songs",
+      "attributes": {
+        "albumName": "...And Justice for All (Deluxe Box Set)",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 4,
+        "durationInMillis": 446146,
+        "releaseDate": "1988-09-07",
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "QMKHM1700138",
+        "artwork": {
+          "width": 2400,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/f3/83/b5f38312-5b95-9a09-fcb9-5622dd5ea077/858978005820.png/{w}x{h}bb.jpg",
+          "height": 2400,
+          "textColor3": "323533",
+          "textColor2": "292d2d",
+          "textColor4": "4c4f4d",
+          "textColor1": "080d0d",
+          "bgColor": "dad8cc",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "url": "https://music.apple.com/us/album/one/1433827883?i=1433828082",
+        "playParams": {
+          "id": "1433828082",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "One",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/70/4f/15704fc6-5323-f790-10cd-bb8a162e8bf4/mzaf_12792552686562403618.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "579373080",
+      "type": "songs",
+      "attributes": {
+        "hasTimeSyncedLyrics": true,
+        "albumName": "Metallica",
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 2,
+        "releaseDate": "1991-08-12",
+        "durationInMillis": 324573,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "USEE10001993",
+        "artwork": {
+          "width": 3825,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/{w}x{h}bb.jpg",
+          "height": 3825,
+          "textColor3": "c1c1c1",
+          "textColor2": "e5e5e5",
+          "textColor4": "b7b7b7",
+          "textColor1": "f2f2f2",
+          "bgColor": "000000",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "playParams": {
+          "id": "579373080",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/us/album/sad-but-true/579372950?i=579373080",
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "hi-res-lossless",
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "Sad But True",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/fc/51/f2fc511a-32e8-9828-4eda-b856bcd64d92/mzaf_12135287931105020405.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "579373083",
+      "type": "songs",
+      "attributes": {
+        "hasTimeSyncedLyrics": true,
+        "albumName": "Metallica",
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 5,
+        "releaseDate": "1991-08-12",
+        "durationInMillis": 404227,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "USEE10001996",
+        "artwork": {
+          "width": 3825,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/{w}x{h}bb.jpg",
+          "height": 3825,
+          "textColor3": "c1c1c1",
+          "textColor2": "e5e5e5",
+          "textColor4": "b7b7b7",
+          "textColor1": "f2f2f2",
+          "bgColor": "000000",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "playParams": {
+          "id": "579373083",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/us/album/wherever-i-may-roam/579372950?i=579373083",
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "hi-res-lossless",
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "Wherever I May Roam",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5f/d9/28/5fd928f9-0a66-6ba7-d1f1-790d4d21aba6/mzaf_1729969445571620042.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "579149037",
+      "type": "songs",
+      "attributes": {
+        "albumName": "Ride the Lightning (Remastered)",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 4,
+        "durationInMillis": 417227,
+        "releaseDate": "1984-07-27",
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "USEE10170110",
+        "artwork": {
+          "width": 1425,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/0f/7a/74/0f7a7472-92fa-e77d-384a-1e4304705e83/dj.jbiruenb.png/{w}x{h}bb.jpg",
+          "height": 1425,
+          "textColor3": "c4cae1",
+          "textColor2": "7ebbef",
+          "textColor4": "71a5dd",
+          "textColor1": "e5e9f4",
+          "bgColor": "3f4f98",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "url": "https://music.apple.com/us/album/fade-to-black/579148345?i=579149037",
+        "playParams": {
+          "id": "579149037",
+          "kind": "song"
+        },
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "hi-res-lossless",
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "Fade to Black",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f6/3c/d0/f63cd033-acff-b3d3-972d-ca39bd39223c/mzaf_14460083950434585770.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    },
+    {
+      "id": "1434424172",
+      "type": "songs",
+      "attributes": {
+        "hasTimeSyncedLyrics": true,
+        "albumName": "...And Justice for All (Remastered)",
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock",
+          "Hard Rock"
+        ],
+        "trackNumber": 4,
+        "releaseDate": "1988-09-07",
+        "durationInMillis": 446146,
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": true,
+        "isrc": "QMKHM1700138",
+        "artwork": {
+          "width": 2000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/65/83/c3658386-7e98-e77c-ac2f-15ea33898bfa/858978005929.png/{w}x{h}bb.jpg",
+          "height": 2000,
+          "textColor3": "373735",
+          "textColor2": "181a1a",
+          "textColor4": "404240",
+          "textColor1": "0d0d0d",
+          "bgColor": "dde0d9",
+          "hasP3": false
+        },
+        "audioLocale": "en-US",
+        "playParams": {
+          "id": "1434424172",
+          "kind": "song"
+        },
+        "url": "https://music.apple.com/us/album/one/1434424163?i=1434424172",
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": true,
+        "hasLyrics": true,
+        "audioTraits": [
+          "lossless",
+          "lossy-stereo"
+        ],
+        "name": "One",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ef/89/bf/ef89bff3-1ae1-6914-0e4c-3464583728b7/mzaf_5951455733855353356.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "Metallica"
+      }
+    }
+  ]
+}

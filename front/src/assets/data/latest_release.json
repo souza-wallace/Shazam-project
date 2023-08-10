@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": "1655432387",
+      "type": "albums",
+      "attributes": {
+        "copyright": "℗ 2023 Blackened Recordings",
+        "genreNames": [
+          "Metal",
+          "Music",
+          "Rock"
+        ],
+        "releaseDate": "2023-04-14",
+        "isMasteredForItunes": false,
+        "upc": "810083961095",
+        "artwork": {
+          "width": 3000,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f7/50/56/f75056b7-d390-d215-51c5-3695dc6fe468/810083961095.png/{w}x{h}bb.jpg",
+          "height": 3000,
+          "textColor3": "343300",
+          "textColor2": "352a01",
+          "textColor4": "5d5401",
+          "textColor1": "010000",
+          "bgColor": "ffff00",
+          "hasP3": false
+        },
+        "url": "https://music.apple.com/us/album/72-seasons/1655432387",
+        "playParams": {
+          "id": "1655432387",
+          "kind": "album"
+        },
+        "recordLabel": "Blackened Recordings",
+        "trackCount": 12,
+        "isCompilation": false,
+        "isPrerelease": false,
+        "audioTraits": [
+          "atmos",
+          "lossless",
+          "lossy-stereo",
+          "spatial"
+        ],
+        "isSingle": false,
+        "name": "72 Seasons",
+        "artistName": "Metallica",
+        "editorialNotes": {
+          "standard": "Psychology, biology, and astrology all have tenets based on the seven-year cycle. In psychology, you’ve got the seven-year itch—the hypothesis that humans stray from committed relationships after about seven years. In biology, there’s the popular (but not quite true) idea that all the cells in the human body replace themselves every seven years. In astrology, there’s a theory that every seven years, imperceptible shifts in the cosmos influence our lives. \n\nAnd then there are Metallica albums. Their 11th studio LP, <i>72 Seasons</i>, comes seven years after <i>Hardwired…to Self-Destruct</i>. <i>Death Magnetic</i> came out eight years before that (close enough). Given the title and premise of <i>72 Seasons</i>—the concept is that everything we become as adults is shaped by our first 18 years, or 72 seasons—the band was clearly thinking about life cycles. Does it have something to do with the fact that original members James Hetfield (vocals/guitar) and Lars Ulrich (drums) met just before they turned 18? Could be.\n\nBut that’s all for the armchair shrinks to sort out. What we know for sure is that every studio album Metallica has put out since 1996’s <i>Load</i> has been around an hour and 15 minutes long. <i>72 Seasons</i> keeps up the trend at an hour and 17. The band’s position seems to be that though fans might have to wait seven years between albums, at least they’re getting a lot of music. And where there are long albums, there are usually long songs. <i>72 Seasons</i> has plenty of them, including the 11-minute closer “Inamorata,” Metallica’s longest song ever. \n\nSpeaking of long songs: It might seem like a bold move to start off an album with a nearly eight-minute track, but when you’re the biggest metal band in the world, you can pretty much do whatever you want. The album’s title track (and fourth single) kicks off with a Motörhead-ish groove before dive-bombing straight into the rip-roaring thrash that Metallica perfected back in the ’80s. “Shadows Follow” and “Too Far Gone?” also deal in vintage thrash, the latter with a Thin Lizzy twist via killer guitar harmonies.\n\nLead single “Lux AEterna” starts off sounding like prime Pantera before quickly shifting into a nasty NWOBHM riff. Paired with Hetfield’s lyrical reference to “lightning to nations,” it’s a clear nod to Diamond Head, one of Metallica’s earliest influences. Meanwhile, “Screaming Suicide” is a song about suicide written from the perspective of suicide itself (“Keep me inside, my name is suicide”) and “You Must Burn!” sounds like it could’ve been on the Black Album back in ’91. \n\nBeyond the obvious throwbacks, there are other moments on <i>72 Seasons</i> that make it seem like Hetfield was taking a stroll down memory lane while writing these songs. “Room of Mirrors,” Sleepwalk My Life Away,” and “Crown of Barbed Wire” deal heavily in self-reflection. In the aforementioned “Inamorata,” there’s a line that goes, “Misery, she loves me, but I love her more.” That might not be a deliberate reference to Metallica’s 1991 song “My Friend of Misery”—with its lyrics about misery loving company—but it would be weird if they didn’t at least realize it after the fact. What does it all mean? That’s anyone’s guess. Here’s hoping we don’t have to wait another seven years to find out.",
+          "short": "On album 11, the legends take—and contemplate—their time, in Spatial.",
+          "tagline": "New Album"
+        },
+        "isComplete": true
+      }
+    }
+  ]
+}

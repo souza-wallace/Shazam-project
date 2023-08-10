@@ -1,0 +1,677 @@
+{
+  "tracks": {
+    "hits": [
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "10314010",
+          "title": "Enter Sandman",
+          "subtitle": "Metallica",
+          "share": {
+            "subject": "Enter Sandman - Metallica",
+            "text": "Enter Sandman by Metallica",
+            "href": "https://www.shazam.com/track/10314010/enter-sandman",
+            "image": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Enter Sandman by Metallica.",
+            "html": "https://www.shazam.com/snippets/email-share/10314010?lang=en-US&country=US",
+            "avatar": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/10314010"
+          },
+          "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "coverart": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/400x400cc.jpg",
+            "coverarthq": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/400x400cc.jpg",
+            "joecolor": "b:000000p:f2f2f2s:e5e5e5t:c1c1c1q:b7b7b7"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "579373079"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/40/64/66/40646668-82fe-e7f4-6e09-1194fb0ced89/mzaf_321916707498501748.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "OPEN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/enter-sandman/579372950?i=579373079&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/enter-sandman/579372950?i=579373079&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/enter-sandman/579372950?i=579373079&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Enter%20Sandman%20Metallica"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Enter+Sandman%27%20artist%3A%27Metallica%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "3996865"
+            }
+          ],
+          "url": "https://www.shazam.com/track/10314010/enter-sandman"
+        }
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "66427234",
+          "title": "Master of Puppets",
+          "subtitle": "Metallica",
+          "share": {
+            "subject": "Master of Puppets - Metallica",
+            "text": "Master of Puppets by Metallica",
+            "href": "https://www.shazam.com/track/66427234/master-of-puppets",
+            "image": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/69/f9/05/69f905ed-ff04-58a2-8de2-1b5338745f19/858978005226.png/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Master of Puppets by Metallica.",
+            "html": "https://www.shazam.com/snippets/email-share/66427234?lang=en-US&country=US",
+            "avatar": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/66427234"
+          },
+          "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "coverart": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/69/f9/05/69f905ed-ff04-58a2-8de2-1b5338745f19/858978005226.png/400x400cc.jpg",
+            "coverarthq": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/69/f9/05/69f905ed-ff04-58a2-8de2-1b5338745f19/858978005226.png/400x400cc.jpg",
+            "joecolor": "b:4d362ep:ede0d9s:dfdfe8t:ccbeb6q:c2bdc3"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1275600554"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f9/1e/62/f91e62b2-9ea5-9be1-1a97-d07c14416790/mzaf_11027219462494696980.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "OPEN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/master-of-puppets/1275600311?i=1275600554&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/master-of-puppets/1275600311?i=1275600554&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/master-of-puppets/1275600311?i=1275600554&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Master%20of%20Puppets%20Metallica"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Master+of+Puppets%27%20artist%3A%27Metallica%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "3996865"
+            }
+          ],
+          "url": "https://www.shazam.com/track/66427234/master-of-puppets"
+        }
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "10314013",
+          "title": "Nothing Else Matters",
+          "subtitle": "Metallica",
+          "share": {
+            "subject": "Nothing Else Matters - Metallica",
+            "text": "Nothing Else Matters by Metallica",
+            "href": "https://www.shazam.com/track/10314013/nothing-else-matters",
+            "image": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Nothing Else Matters by Metallica.",
+            "html": "https://www.shazam.com/snippets/email-share/10314013?lang=en-US&country=US",
+            "avatar": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/10314013"
+          },
+          "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "coverart": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/400x400cc.jpg",
+            "coverarthq": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/400x400cc.jpg",
+            "joecolor": "b:000000p:f2f2f2s:e5e5e5t:c1c1c1q:b7b7b7"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "579373086"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/51/1e/08511e77-f8c4-7aba-4069-437211d2a505/mzaf_3922800193125139869.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "OPEN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/nothing-else-matters/579372950?i=579373086&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/nothing-else-matters/579372950?i=579373086&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/nothing-else-matters/579372950?i=579373086&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Nothing%20Else%20Matters%20Metallica"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Nothing+Else+Matters%27%20artist%3A%27Metallica%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "3996865"
+            }
+          ],
+          "url": "https://www.shazam.com/track/10314013/nothing-else-matters"
+        }
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "234965",
+          "title": "For Whom the Bell Tolls",
+          "subtitle": "Metallica",
+          "share": {
+            "subject": "For Whom the Bell Tolls - Metallica",
+            "text": "For Whom the Bell Tolls by Metallica",
+            "href": "https://www.shazam.com/track/234965/for-whom-the-bell-tolls-remastered",
+            "image": "https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/0f/7a/74/0f7a7472-92fa-e77d-384a-1e4304705e83/dj.jbiruenb.png/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover For Whom the Bell Tolls by Metallica.",
+            "html": "https://www.shazam.com/snippets/email-share/234965?lang=en-US&country=US",
+            "avatar": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/234965"
+          },
+          "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "coverart": "https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/0f/7a/74/0f7a7472-92fa-e77d-384a-1e4304705e83/dj.jbiruenb.png/400x400cc.jpg",
+            "coverarthq": "https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/0f/7a/74/0f7a7472-92fa-e77d-384a-1e4304705e83/dj.jbiruenb.png/400x400cc.jpg",
+            "joecolor": "b:3f4f98p:e5e9f4s:7ebbeft:c4cae1q:71a5dd"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "579149036"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/89/a2/3589a2fb-2922-51ef-274d-f0c6e10c4f60/mzaf_17440675038089707494.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "OPEN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/for-whom-the-bell-tolls/579148345?i=579149036&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/for-whom-the-bell-tolls/579148345?i=579149036&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/for-whom-the-bell-tolls/579148345?i=579149036&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:For%20Whom%20the%20Bell%20Tolls%20Metallica"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27For+Whom+the+Bell+Tolls%27%20artist%3A%27Metallica%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "3996865"
+            }
+          ],
+          "url": "https://www.shazam.com/track/234965/for-whom-the-bell-tolls-remastered"
+        }
+      },
+      {
+        "track": {
+          "layout": "5",
+          "type": "MUSIC",
+          "key": "10104481",
+          "title": "One",
+          "subtitle": "Metallica",
+          "share": {
+            "subject": "One - Metallica",
+            "text": "One by Metallica",
+            "href": "https://www.shazam.com/track/10104481/one",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/65/83/c3658386-7e98-e77c-ac2f-15ea33898bfa/858978005929.png/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover One by Metallica.",
+            "html": "https://www.shazam.com/snippets/email-share/10104481?lang=en-US&country=US",
+            "avatar": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/10104481"
+          },
+          "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/65/83/c3658386-7e98-e77c-ac2f-15ea33898bfa/858978005929.png/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/65/83/c3658386-7e98-e77c-ac2f-15ea33898bfa/858978005929.png/400x400cc.jpg",
+            "joecolor": "b:dde0d9p:0d0d0ds:181a1at:373735q:404240"
+          },
+          "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [
+              {
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1434424172"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ef/89/bf/ef89bff3-1ae1-6914-0e4c-3464583728b7/mzaf_5951455733855353356.plus.aac.ep.m4a"
+              }
+            ],
+            "options": [
+              {
+                "caption": "OPEN",
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/one/1434424163?i=1434424172&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/one/1434424163?i=1434424172&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "open",
+                  "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+              },
+              {
+                "caption": "BUY",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/one/1434424163?i=1434424172&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "type": "buy",
+                  "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+              }
+            ],
+            "providers": [
+              {
+                "caption": "Open in Spotify",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:One%20Metallica"
+                  }
+                ],
+                "type": "SPOTIFY"
+              },
+              {
+                "caption": "Open in Deezer",
+                "images": {
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27One%27%20artist%3A%27Metallica%27%7D"
+                  }
+                ],
+                "type": "DEEZER"
+              }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+          },
+          "artists": [
+            {
+              "id": "42",
+              "adamid": "3996865"
+            }
+          ],
+          "url": "https://www.shazam.com/track/10104481/one"
+        }
+      }
+    ]
+  },
+  "artists": {
+    "hits": [
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/7c/ec/2d/7cec2d74-d50a-445e-eea6-f6097a01cea7/00e0f5e1-2dd6-4f71-bbdf-d2cbdd7560eb_ami-identity-7650ac390e73210afeaf26aae0ec7e10-2022-11-28T21-57-07.638Z_cropped.png/800x800bb.jpg",
+          "name": "Metallica",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/metallica/3996865",
+          "adamid": "3996865"
+        }
+      },
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/12/b2/b4/12b2b42e-4a04-020d-25d1-4e738a28ed97/pr_source.png/800x800bb.jpg",
+          "name": "SaD - Symphony and Metallica",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/sad-symphony-and-metallica/1545194743",
+          "adamid": "1545194743"
+        }
+      },
+      {
+        "artist": {
+          "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/47/6d/33/476d336d-493f-90bf-6577-1d564b99b687/c91c7e6a-d1d9-4fe7-bc79-bdcae9747467_ami-identity-07c4b9505e22a3f42ee4e972f7f1f17d-2023-07-24T14-15-22.321Z_cropped.png/800x800bb.jpg",
+          "name": "TelaMetallica",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/telametallica/1641907916",
+          "adamid": "1641907916"
+        }
+      }
+    ]
+  }
+}

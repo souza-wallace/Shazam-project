@@ -1,0 +1,54 @@
+/**{
+    background: rgb(65,92,212);
+    background: linear-gradient(90deg, rgba(65,92,212,1) 17%, rgba(6,106,255,1) 58%, rgba(0,212,255,1) 100%);
+}
+*/
+*{
+    font-family:sans-serif;
+
+}
+.thumb-album{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.thumb-profile{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.title{
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text{
+    color: #fff;
+}
+
+.card-music{
+    /*max-width: 350px;*/
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    padding-top: 22px;
+    color: #000;
+    padding-bottom: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-custom{
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}
