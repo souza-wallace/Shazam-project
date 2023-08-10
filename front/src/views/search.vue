@@ -1,52 +1,90 @@
 <template>
   <div class="container-fluid p-0 m-0 row">
-    <nav class="ps-5 navbar navbar-expand-lg backgroundColor">
-            <a class="navbar-brand" href="#"><h5>Shazam</h5></a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul>
+    <section class="left backgroundColor p-0 m-0">
+        <nav>
+            <c-menu></c-menu>
+        </nav>
+        <article class="col-12 d-flex justify-content-center">
+            <div class="div-search">
+                <div class="d-flex justify-content-center">
+                    <h5 class="subtitle-size bold">Encontre suas Músicas Favoritas</h5>
+                </div>
+                <div class="input-group mb-3 mt-custom-1">
+                    <input type="text" class="form-control" v-model="term" placeholder="can be a word, phrase, artist name or song name"  aria-describedby="button-search">
+                    <button class="btn btn-outline-light" type="button" id="button-search" @click="search()">Buscar</button>
+                </div>
+                <div class="d-flex justify-content-center mt-custom-1">
+                    <c-loading v-if="return_api"></c-loading>
+                </div>
             </div>
-    </nav>
-    <div class="col-12 d-flex justify-content-center area-search backgroundColor">
-        <div class="div-search">
-            <div class="d-flex justify-content-center mb-5">
-                <h5 class="subtitle">Encontre suas Músicas Favoritas</h5>
+        </article>
+    </section>
+    <section class="right row" style=""> 
+        <article class="col-12">
+            <div v-if="return_api" class="d-flex justify-content-center margin-top-custom">
+                <c-loading ></c-loading>
             </div>
-            <input class="form-control form-control-lg" type="text" placeholder="can be a word, phrase, artist name or song name">
-        </div>
-    </div>
-    <div class="col-12 d-flex justify-content-center">
-        <h5>area de resultado</h5>
-    </div>
+            <div v-if="!return_api && Object.keys(musics).length != 0">
+                <div><h2 class="bold">Resultados de artistas para {{searchWord}}</h2></div>
+                <c-card-artist :artists="artists"></c-card-artist>
+            </div>
+            <div class="mt-4" v-if="!return_api && Object.keys(artists).length != 0">
+                <div><h2 class="bold">Músicas mais populares para {{searchWord}}</h2></div>
+                <div>
+                    <c-card-music :musics="musics"></c-card-music>
+                </div>
+            </div>
+            <div>
+                <div v-if="!return_api && Object.keys(top_songs).length != 0">
+                    <h2 class="bold">Top #10 Globals Músics {{searchWord}}</h2>
+                    <c-card-music :musics="top_songs.tracks"></c-card-music>
+                </div>
+            </div>
+        </article>
+    </section>
   </div>
 </template>
 
 <style scoped>
-.area-search{
-    height: 300px;
-}
 
-.backgroundColor{
-    background: linear-gradient(90deg, rgba(65,92,212,1) 17%, rgba(6,106,255,1) 58%, rgba(0,212,255,1) 100%);
+.subtitle-size{
+    font-size: 26px;
 }
 
 .div-search{
     margin-top: 100px;
-    width: 800px;
+    width: 55%;
 }
 
-nav a, li a{
+
+
+.left{
+    width: 50%;
+    height: auto;
     color: #fff;
+}
+
+.right{
+    width: 50%;
+    color: #000;
+}
+
+.mt-custom-1{
+    margin-top: 135px;
+}
+
+.div-image{
+    border-radius: 10px;
+    width: 747px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.margin-top-custom{
+    margin-top: 40%;
 }
 
 </style>
 
+<script src="../assets/js/search.js"></script>

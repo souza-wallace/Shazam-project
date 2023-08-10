@@ -1,6 +1,6 @@
 <template>
     <div class="ps-5 navbar navbar-expand-lg backgroundColor">
-        <a class="navbar-brand text-light" href="#"><h5>SEEKER</h5></a>
+        <router-link to="/" class="navbar-brand text-light"><h5>SEEKER</h5></router-link>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -13,3 +13,20 @@
         </div>
     </div>
 </template>
+<script>
+export default {
+    data() {
+      return {
+        url: ''
+      }
+    },
+  
+    mounted() {
+        this.url = window.location.host;
+    },
+  
+    methods: {
+      
+    },
+}
+</script>

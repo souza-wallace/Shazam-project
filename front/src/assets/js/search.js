@@ -1,38 +1,33 @@
 import axios from 'axios';
 import Axios from 'axios';
-import response from '../data/response.json';
-import globalSongs from '../data/top_global_songs.json';
+//data  api 
+//import response from '../data/response.json';
+//import globalSongs from '../data/top_global_songs.json';
 
 
 export default {
     data() {
       return {
         term: '',
-        results: {
-        },
         artists: {},
         musics: {},
-        response: response,
         backgroundAvatar: '',
         searchWord: '',
-        sync: false,
-        top_songs: globalSongs,
+        return_api: false,
+        top_songs: {},
       }
     },
   
     mounted() {
-        const alturaTela = window.innerHeight;
-        const larguraTela = window.innerWidth;
-
-        console.log(`Altura da tela do navegador: ${alturaTela}px`); 
-        console.log(`Altura da tela do navegador: ${larguraTela}px`);    
         this.getTopGlobaslSongs();
     },
   
     methods: {
         async search(){
-            this.sync = true;
+            this.top_songs = {};
+            this.return_api = true;
             this.searchWord = this.term;
+
             const options = {
                 method: 'GET',
                 url: 'https://shazam.p.rapidapi.com/search',
@@ -48,10 +43,16 @@ export default {
             };
 
             try {
-                //const response = await axios.request(options);
-                this.artists = this.response.artists.hits;
-                this.musics = this.response.tracks.hits;
-                this.sync = false;
+                const response = await axios.request(options);
+                this.artists = response.data.artists.hits;
+                this.musics = response.data.tracks.hits;
+                this.return_api = false;
+
+                console.log(this.artists, 'artists')
+                // Armazenar os dados no LocalStorage
+                localStorage.setItem('artists', JSON.stringify(this.artists));
+                localStorage.setItem('searchWord', JSON.stringify(this.term));
+
 
                 //this.backgroundAvatar = `background-image: url('${this.artist.avatar}')`;
 
@@ -61,12 +62,14 @@ export default {
         },
 
         async getTopGlobaslSongs(){
+            this.return_api = true;
+
             const options = {
               method: 'GET',
               url: 'https://shazam.p.rapidapi.com/charts/track',
               params: {
                 locale: 'en-US',
-                pageSize: '20',
+                pageSize: '10',
               },
               headers: {
                 'X-RapidAPI-Key': '22e7a34064mshc9240a31607d2f2p184fa4jsna5bce531e37d',
@@ -75,8 +78,9 @@ export default {
             };
             
             try {
-                //const response = await axios.request(options);
-                console.log(this.top_songs);
+                const response = await axios.request(options);
+                this.top_songs = response.data;
+                this.return_api = false;
             } catch (error) {
                 console.error(error);
             }

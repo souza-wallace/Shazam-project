@@ -2,7 +2,7 @@ import axios from 'axios';
 import Axios from 'axios';
 import response2 from '../data/response_2.json';
 import response from '../data/response.json';
-import albums from '../data/top_songs_artist.json';
+import songs from '../data/top_songs_artist.json';
 import latest from '../data/latest_release.json';
 
 
@@ -13,8 +13,8 @@ export default {
         id: this.$route.params.id,
         response2: response2,
         response: response,
-        albums: albums,
-        latest: latest,
+        songs: {},
+        latest: {},
         artist: {},
         artistData: {},
       }
@@ -25,7 +25,6 @@ export default {
         this.search();
         this.getTopSongs();
         this.getLatestRelease();
-        this.albums.data.map(song => song.attributes.playing = false);
     },
   
     methods: {
@@ -43,8 +42,10 @@ export default {
             };
 
             try {
-                //const response = await axios.request(options);
-                this.artistData = this.response2.data[0].attributes;
+                const response = await axios.request(options);
+                this.artistData = response.data.data[0].attributes;
+
+                console.log(this.artistData, 'nm')
 
             } catch (error) {
                 console.error(error);
@@ -52,28 +53,24 @@ export default {
         },
 
         async search(){
-            this.searchWord = this.term;
-            const options = {
-                method: 'GET',
-                url: 'https://shazam.p.rapidapi.com/search',
-                params: {
-                    term: this.term,
-                    offset: '0',
-                    limit: '6'
-                },
-                headers: {
-                    'X-RapidAPI-Key': '22e7a34064mshc9240a31607d2f2p184fa4jsna5bce531e37d',
-                    'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
-                }
-            };
-
+            
             try {
-                //const response = await axios.request(options);
-                console.log(this.response,'response')
+                var artists = {};
                 var artist = {};
 
-                artist = this.response.artists.hits.filter( dataArtist => dataArtist.artist.adamid == "3996865")
+                // Recuperar os dados do LocalStorage
+                const data = localStorage.getItem('artists');
+
+                if (data) {
+                    artists = JSON.parse(data);
+                }
+
+                artist = artists.filter( dataArtist => dataArtist.artist.adamid == this.id);
+
                 this.artist = artist[0].artist;
+
+                console.log(this.artist, 'qd')
+
             } catch (error) {
                 console.error(error);
             }
@@ -86,7 +83,6 @@ export default {
             url: 'https://shazam.p.rapidapi.com/artists/get-top-songs',
             params: {
                 id: this.id,
-                l: 'en-US'
             },
             headers: {
                 'X-RapidAPI-Key': '22e7a34064mshc9240a31607d2f2p184fa4jsna5bce531e37d',
@@ -95,8 +91,10 @@ export default {
             };
 
             try {
-                //const response = await axios.request(options);
-                console.log(albums.data, 'albums');
+                const response = await axios.request(options);
+                this.songs = response.data.data;
+                this.songs.map(song => song.attributes.playing = false);
+
             } catch (error) {
                 console.error(error);
             }
@@ -107,7 +105,7 @@ export default {
               method: 'GET',
               url: 'https://shazam.p.rapidapi.com/artists/get-latest-release',
               params: {
-                id: '3996865',
+                id: this.id,
                 l: 'en-US'
               },
               headers: {
@@ -117,7 +115,8 @@ export default {
             };
             
             try {
-                //const response = await axios.request(options);
+                const response = await axios.request(options);
+                this.latest = response.data.data;
                 
             } catch (error) {
                 console.error(error);

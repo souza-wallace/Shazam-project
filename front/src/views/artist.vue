@@ -8,15 +8,17 @@
                 <img class="thumb-profile" :src="artist.avatar" alt="">
             </article>
             <article class="ms-5 pt-5 block">
-                <h3 class="title">{{artistData ? artistData?.editorialNotes?.name : ""}}</h3>
-                <p class="text">{{artistData ? artistData?.editorialNotes?.standard : ""}}</p>
+                <h3 class="title">{{artistData?.editorialNotes ? artistData?.editorialNotes?.name : artist.name}}</h3>
+                <p class="text" v-if="artistData?.editorialNotes">{{ artistData?.editorialNotes?.standard}}</p>
+                <a class="text" v-else :href="artist.weburl">{{ artist.weburl}}</a>
+
                 <p class="genderTag px-3" v-for="(genderName, index) in artistData?.genreNames" :key="index">{{genderName}}</p>
             </article>
         </section>
         <section>
             <article class=" m row d-flex justify-content-center">
                 <div class="ms-5 mt-4"><h2 class="bold">Top #10 de {{artist.name}}</h2></div>
-                <div class="card-music my-5 mb-2 mx-3 col-3 d-flex border b2" v-for="(album, index) in albums.data" :key="index">
+                <div class="card-music my-5 mb-2 mx-3 col-3 d-flex border b2" v-for="(album, index) in songs" :key="index">
                     <div class="me-1 text-custom ps-3"></div>
                     <div>
                         <audio :ref="'track' + index">
@@ -36,22 +38,23 @@
             </article>
         </section>
 
+        <!--
         <section>
             <article class=" m row d-flex justify-content-center">
                 <div class="ms-5 mt-4"><h2 class="bold">Ultimo lançamento de {{artist.name}}</h2></div>
                 <div class="ms-5">
                     <div>
-                        <p>{{this.latest.data[0].attributes.name}}</p>
+                        <p>{{this.latest[0]?.attributes?.name}}</p>
                     </div>
                     <div>
-                        <p>{{this.latest.data[0].attributes.releaseDate}}</p>
+                        <p>{{this.latest[0]?.attributes?.releaseDate}}</p>
                     </div>
                     <div>
-                        <p>{{this.latest.data[0].attributes.editorialNotes.short}}</p>
+                        <p>{{this.latest[0]?.attributes?.editorialNotes?.short}}</p>
                     </div>
                 </div>
             </article>
-        </section>
+        </section>-->
     </main>
 </template>
 <style scoped>
@@ -85,6 +88,10 @@
 }
  i{
     font-size: 50px;
+ }
+
+ a{
+    text-decoration: none;
  }
 
 </style>
